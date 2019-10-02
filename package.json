@@ -1,0 +1,62 @@
+{
+  "name": "libby",
+  "version": "1.3.0",
+  "description": "Action - State - Store Manager",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "build/rrpm.js",
+  "module": "build/rrpm.module.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://mdellano@bitbucket.org/fleetstudio/libby.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "author": "Mariano de Llano",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fleetstudio/libby#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "build-packages": "lerna exec -- npm run build",
+    "publish-packages": "lerna publish",
+    "compile": "lerna run compile",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna run clean",
+    "lint": "lerna run lint",
+    "lint-fixup": "./node_modules/.bin/eslint src --ext .js,.jsx --fix",
+    "test": "lerna run test",
+    "prepublish": "lerna run build",
+    "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'",
+    "check-packages": "yarn clean && yarn compile && yarn test && yarn lint"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "lerna": "^3.13.1",
+    "path": "^0.12.7",
+    "rollup": "^0.68.2",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-javascript-obfuscator": "^1.0.4",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-terser": "^5.1.1"
+  }
+}

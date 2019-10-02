@@ -1,0 +1,12 @@
+70 error Error: Command failed: git push --follow-tags --no-verify origin master
+70 error remote: Permission denied to update branch master.
+70 error To bitbucket.org:fleetstudio/libby.git
+70 error  ! [remote rejected] master -> master (pre-receive hook declined)
+70 error  ! [remote rejected] @phinxlab/libby-core@1.3.18-alpha.0 -> @phinxlab/libby-core@1.3.18-alpha.0 (pre-receive hook declined)
+70 error  ! [remote rejected] @phinxlab/libby-rest-mobile@1.3.18-alpha.0 -> @phinxlab/libby-rest-mobile@1.3.18-alpha.0 (pre-receive hook declined)
+70 error  ! [remote rejected] @phinxlab/libby-rest-web@1.3.17 -> @phinxlab/libby-rest-web@1.3.17 (pre-receive hook declined)
+70 error  ! [remote rejected] @phinxlab/libby-rest@1.3.17 -> @phinxlab/libby-rest@1.3.17 (pre-receive hook declined)
+70 error error: failed to push some refs to 'git@bitbucket.org:fleetstudio/libby.git'
+70 error
+70 error     at makeError (/Users/ogarcia/Projects/Phinx/libby/node_modules/execa/index.js:174:9)
+70 error     at /Users/ogarcia/Projects/Phinx/libby/node_modules/execa/index.js:278:16

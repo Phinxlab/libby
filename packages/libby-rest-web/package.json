@@ -1,0 +1,19 @@
+{
+  "name": "libby-rest-web",
+  "version": "1.3.29",
+  "description": "Libby REST - Chino Web modules",
+  "main": "build/rrpm.js",
+  "module": "build/rrpm.module.js",
+  "private": false,
+  "peerDependencies": {
+    "react": "^16.5.2"
+  },
+  "author": "Mariano de Llano",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fleetstudio/libby/src/master/packages/libby-rest-web/",
+  "dependencies": {
+    "libby-core": "^1.3.28",
+    "libby-rest": "^1.3.29"
+  },
+  "gitHead": "a691190a5e3fb799984fd1949a7cc2e53ffe6582"
+}

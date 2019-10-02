@@ -1,0 +1,12 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "editor.defaultFormatter": "vscode.configuration-editing",
+  "editor.tabSize": 2,
+  "git.ignoreLimitWarning": true,
+}
