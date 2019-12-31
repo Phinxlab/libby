@@ -1,5 +1,5 @@
 {
-  "name": "libby",
+  "name": "@phinxlab/libby",
   "version": "1.3.0",
   "description": "Action - State - Store Manager",
   "private": true,
