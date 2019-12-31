@@ -1,6 +1,6 @@
 {
   "name": "@phinxlab/libby-core-public",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Libby Core Modules",
   "main": "build/rrpm.js",
   "module": "build/rrpm.module.js",
