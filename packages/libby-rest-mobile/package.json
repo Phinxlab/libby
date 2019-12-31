@@ -1,6 +1,6 @@
 {
   "name": "@phinxlab/libby-rest-mobile-public",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Libby REST - Chino Mobile modules",
   "main": "build/rrpm.js",
   "module": "build/rrpm.module.js",

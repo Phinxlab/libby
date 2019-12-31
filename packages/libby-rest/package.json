@@ -1,6 +1,6 @@
 {
   "name": "@phinxlab/libby-rest-public",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Libby REST - Chino Modules",
   "main": "build/rrpm.js",
   "module": "build/rrpm.module.js",

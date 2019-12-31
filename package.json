@@ -22,7 +22,6 @@
     "lodash": "^4.17.11"
   },
   "scripts": {
-    "postinstall": "lerna bootstrap",
     "build-packages": "lerna exec -- npm run build",
     "publish-packages": "lerna publish",
     "compile": "lerna run compile",
@@ -31,7 +30,6 @@
     "lint": "lerna run lint",
     "lint-fixup": "./node_modules/.bin/eslint src --ext .js,.jsx --fix",
     "test": "lerna run test",
-    "prepublish": "lerna run build",
     "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'",
     "check-packages": "yarn clean && yarn compile && yarn test && yarn lint"
   },
